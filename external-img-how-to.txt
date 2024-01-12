@@ -1,0 +1,13 @@
+# head over to next.config.js
+# modify nextConfig as below
+
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.pexels.com" #domain name
+      }
+    ]
+  }
+}
